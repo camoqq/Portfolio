@@ -1,0 +1,63 @@
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-image: white;
+  height: 80vh;
+  background: radial-gradient(white 20%, rgb(191, 188, 187));
+}
+.left-con {
+  margin-top: 6rem;
+}
+.lef {
+  margin-left: 3rem;
+  padding-bottom: 1rem;
+}
+
+.left-con h2 {
+  margin: 0.5rem 1rem;
+}
+.left-con p {
+  margin: 0 4rem;
+}
+.left-con button {
+  background-color: rgb(28, 241, 64);
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.ule {
+  margin-top: 25rem;
+}
+.right-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.right-con img {
+  width: 40%;
+  margin-bottom: 2rem;
+  margin: 1rem 0;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 7px;
+}
+@media screen and (max-width: 1100px) {
+  .parent {
+    grid-template-columns: 1fr;
+    height: 100%;
+  }
+  .left-con {
+    padding: 5rem 0 2rem;
+    margin-top: 0;
+  }
+  .left-con h2 {
+    padding: 1rem;
+  }
+  .right-con {
+    padding-bottom: 3rem;
+  }
+  .p1 {
+    display: none;
+  }
+}
