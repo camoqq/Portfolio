@@ -37,7 +37,7 @@ const Proj = () => {
         <div className="project-card">
           <img src={pic7} alt="pics" />
           <div>
-            <h2>Tic Tac Toe</h2>
+            <h2>Dice Tic Tac Toe</h2>
             <p>Place 3 marks in a row to win the game</p>
           </div>
           <div className="navs">
