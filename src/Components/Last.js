@@ -13,6 +13,7 @@ class Last extends Component {
           <h1 className="white">{this.props.heading}</h1>
           <p className="white">{this.props.text}</p>
         </div>
+        {/* <Form /> */}
       </div>
     );
   }

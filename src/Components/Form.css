@@ -1,6 +1,13 @@
 .cont {
   /* background-image: radial-gradient(rgb(18, 27, 81) 30%, rgb(47, 127, 139) 90%); */
   background-color: white;
+  height: 100%;
+  padding-top: 4.3rem;
+}
+.cont h2 {
+  margin-top: 1rem;
+  text-align: center;
+  padding: 0;
 }
 form {
   display: flex;

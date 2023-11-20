@@ -1,8 +1,9 @@
 .footer1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  background-color: rgb(237, 237, 237);
-  border-top: 15px solid rgb(217, 224, 206);
+  background-color: white;
+  border-top: 10px solid rgb(207, 207, 200);
+  color: white !important;
 }
 
 .left {

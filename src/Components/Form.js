@@ -1,6 +1,7 @@
 import "./Form.css";
 import emailjs from "@emailjs/browser";
 import React, { useRef } from "react";
+import Last from "./Last";
 
 const Form = () => {
   const form = useRef();
@@ -26,6 +27,8 @@ const Form = () => {
   };
   return (
     <div className="cont">
+      <Last />
+      <h2>Contact Me</h2>
       <form onSubmit={sendEmail} ref={form}>
         <label>Name</label>
         <input type="text" name="name" />

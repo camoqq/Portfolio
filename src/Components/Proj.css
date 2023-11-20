@@ -1,30 +1,25 @@
 .firstContainer {
-  /* background-image: radial-gradient(rgb(18, 27, 81) 30%, rgb(28, 73, 80) 90%); */
-  background: radial-gradient(white 20%, rgb(191, 188, 187));
+  background: radial-gradient(white 20%, rgb(255, 255, 255));
   text-align: center;
-  padding: 4rem 0 2rem 0;
 }
-
-.firstContainer h1 {
-  font-size: 2.5rem;
-  font-weight: 500;
-  padding: 2rem 0 3rem;
-}
-
 .project-container {
   display: grid;
-  margin: 2rem;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
+  padding: 6rem 2rem 3rem 2rem;
 }
+
 .project-card {
+  margin: 1rem;
   padding: 1.5rem 1rem;
-  background-color: rgb(184, 184, 184);
+  background-color: rgb(207, 207, 200);
   border-radius: 10px;
-  border: 3px solid rgb(12, 12, 12);
+  border: 1px solid rgb(12, 12, 12);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  height: 25rem;
+  box-shadow: 2px 2px 2px black;
 }
 
 .project-card h2 {
@@ -36,10 +31,10 @@
 }
 .project-card img {
   width: 100%;
-  height: 40%;
+  height: 30%;
   object-fit: cover;
   border-radius: 10px;
-  border: 2.5px solid black;
+  border: 1px solid black;
 }
 .navs {
   display: flex;
@@ -61,17 +56,13 @@
   color: white;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 725px) {
   .project-container {
-    margin: auto;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
   }
   .project-card {
-    margin: 2rem 6rem 1rem;
-  }
-}
-@media screen and (min-width: 900px) {
-  .project-card {
-    margin: 2rem 2rem 1rem;
+    margin-top: 2rem;
   }
 }

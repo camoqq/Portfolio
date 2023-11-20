@@ -3,7 +3,8 @@
   grid-template-columns: repeat(2, 1fr);
   background-image: white;
   height: 80vh;
-  background: radial-gradient(white 20%, rgb(191, 188, 187));
+  background: white;
+  margin-bottom: 0.25rem;
 }
 .left-con {
   margin-top: 6rem;
@@ -15,6 +16,7 @@
 
 .left-con h2 {
   margin: 0.5rem 1rem;
+  /* background-image: ; */
 }
 .left-con p {
   margin: 0 4rem;
@@ -39,8 +41,9 @@
   width: 40%;
   margin-bottom: 2rem;
   margin: 1rem 0;
-  border: 3px solid rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 7px;
+  box-shadow: 2px 2px 2px black;
 }
 @media screen and (max-width: 1100px) {
   .parent {

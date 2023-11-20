@@ -27,13 +27,12 @@ const AboutContent = () => {
           <p>
             <ul>
               <li>Javascript</li>
-              <li>Github</li>
               <li>React</li>
               <li>Css</li>
               <li>Html</li>
-              <li>Python</li>
-              <li>NodeJs</li>
-              <li>Boostrap</li>
+              <li>Firebase</li>
+              <li>Typescript</li>
+              <li>Next.js</li>
             </ul>
           </p>
         </div>
