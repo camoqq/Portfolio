@@ -26,7 +26,7 @@ const Proj = () => {
         <div className="project-card">
           <img src={pic2} alt="pics" />
           <div>
-            <h2>Countries App</h2>
+            <h2>Countries </h2>
             <p>App made with Typescript.</p>
           </div>
           <div className="navs">
