@@ -4,6 +4,7 @@ import pic5 from "../Pics/p5.webp";
 import pic1 from "../Pics/p1.png";
 import pic7 from "../Pics/p7.jpeg";
 import pic6 from "../Pics/p6.jpeg";
+import pic2 from "../Pics/countries.jpeg";
 
 const Proj = () => {
   return (
@@ -22,6 +23,17 @@ const Proj = () => {
           </div>
         </div>
 
+        <div className="project-card">
+          <img src={pic2} alt="pics" />
+          <div>
+            <h2>Countries App</h2>
+            <p>App made with Typescript.</p>
+          </div>
+          <div className="navs">
+            <a href="https://github.com/camoqq/countries">view code</a>
+            <a href="https://countries-lovat-rho.vercel.app/">view live</a>
+          </div>
+        </div>
         <div className="project-card">
           <img src={pic6} alt="pics" />
           <div>
