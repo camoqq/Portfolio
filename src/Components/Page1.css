@@ -51,4 +51,7 @@ h3 {
     margin: 4px 0;
     font-size: 1.3rem;
   }
+  .content {
+    line-height: 3rem;
+  }
 }
