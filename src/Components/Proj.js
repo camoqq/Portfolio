@@ -4,6 +4,7 @@ import pic5 from "../Pics/p5.webp";
 import pic1 from "../Pics/p1.png";
 import pic7 from "../Pics/p7.jpeg";
 import pic6 from "../Pics/p6.jpeg";
+import pic9 from "../Pics/p9.jpeg";
 import pic2 from "../Pics/countries.jpeg";
 
 const Proj = () => {
@@ -24,6 +25,17 @@ const Proj = () => {
         </div>
 
         <div className="project-card">
+          <img src={pic9} alt="pics" />
+          <div>
+            <h2>Car Store</h2>
+            <p>App made with Typescript and Redux.</p>
+          </div>
+          <div className="navs">
+            <a href="https://github.com/camoqq/carStore">view code</a>
+            <a href="https://car-store-zeta.vercel.app/">view live</a>
+          </div>
+        </div>
+        <div className="project-card">
           <img src={pic2} alt="pics" />
           <div>
             <h2>Countries </h2>
@@ -34,6 +46,7 @@ const Proj = () => {
             <a href="https://countries-lovat-rho.vercel.app/">view live</a>
           </div>
         </div>
+
         <div className="project-card">
           <img src={pic6} alt="pics" />
           <div>
