@@ -41,3 +41,14 @@ h3 {
 .btn {
   margin: 2rem;
 }
+@media screen and (max-width: 580px) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn {
+    padding: 0;
+    margin: 4px 0;
+    font-size: 1.3rem;
+  }
+}

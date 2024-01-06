@@ -22,3 +22,16 @@
 .right p {
   padding: 1rem 0;
 }
+
+@media screen and (max-width: 580px) {
+  .right {
+    display: none;
+  }
+  .footer1 {
+    display: flex;
+    justify-content: center;
+  }
+  .left {
+    text-align: center;
+  }
+}
