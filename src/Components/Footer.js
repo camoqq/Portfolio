@@ -23,6 +23,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
       <div className="right">
         <a href="https://www.facebook.com">
           <FaFacebook
@@ -30,14 +31,12 @@ const Footer = () => {
             style={{ marginRight: "1rem", color: "black" }}
           />
         </a>
-
         <a href="https://www.twitter.com">
           <FaTwitter
             size={40}
             style={{ marginRight: "1rem", color: "black" }}
           />
         </a>
-
         <a href="https://www.youtube.com">
           <FaYoutube
             size={40}

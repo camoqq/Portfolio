@@ -3,15 +3,26 @@ import "./Proj.css";
 import pic5 from "../Pics/p5.webp";
 import pic1 from "../Pics/p1.png";
 import pic7 from "../Pics/p7.jpeg";
-import pic6 from "../Pics/p6.jpeg";
+import pic6 from "../Pics/mern4.jpg";
 import pic9 from "../Pics/p9.jpeg";
 import pic2 from "../Pics/countries.jpeg";
 
 const Proj = () => {
   return (
     <div className="firstContainer">
-      {/* <h1>Projects</h1> */}
       <div className="project-container">
+        <div className="project-card">
+          <img src={pic6} alt="pics" />
+          <div>
+            <h2>Shopping Cart</h2>
+            <p>Shopping cart using the MERN stack</p>
+          </div>
+          <div className="navs">
+            <a href="https://github.com/camoqq/mern">view code</a>
+            <a href="https://mern-o0ir.onrender.com/">view live</a>
+          </div>
+        </div>
+
         <div className="project-card">
           <img src={pic1} alt="pics" />
           <div>
@@ -44,18 +55,6 @@ const Proj = () => {
           <div className="navs">
             <a href="https://github.com/camoqq/countries">view code</a>
             <a href="https://countries-lovat-rho.vercel.app/">view live</a>
-          </div>
-        </div>
-
-        <div className="project-card">
-          <img src={pic6} alt="pics" />
-          <div>
-            <h2>Shopping Cart</h2>
-            <p>Shopping cart using context API with useReducer Hook</p>
-          </div>
-          <div className="navs">
-            <a href="https://github.com/camoqq/newCart">view code</a>
-            <a href="https://camoqq.github.io/newCart/">view live</a>
           </div>
         </div>
 

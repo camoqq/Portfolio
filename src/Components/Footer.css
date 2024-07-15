@@ -30,8 +30,6 @@
   .footer1 {
     display: flex;
     justify-content: center;
-  }
-  .left {
-    text-align: center;
+    align-content: center;
   }
 }

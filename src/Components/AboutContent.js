@@ -12,14 +12,15 @@ const AboutContent = () => {
           <p className="de">
             I'm really passionate about creating software that will help improve
             the lives of those around me. I also consider myself a positive,
-            enthusiastic and competent freelance web developer that can make an
-            app from nothing into existence, fully formed.
+            enthusiastic and competent web developer that can make an app from
+            nothing into existence, fully formed.
           </p>
         </div>
         <div className="lef">
           <h2>Education</h2>
           <p>
-            <b>New Media Technology </b>| La Guardia Community College
+            <b>Programming and software development</b> <br></br>
+            La Guardia Community College
           </p>
         </div>
         <div className="lef">
@@ -33,6 +34,8 @@ const AboutContent = () => {
               <li>Firebase</li>
               <li>Typescript</li>
               <li>Next.js</li>
+              <li>Express</li>
+              <li>Mongo DB</li>
             </ul>
           </p>
         </div>
