@@ -1,34 +1,53 @@
 .firstContainer {
-  background: radial-gradient(white 20%, rgb(255, 255, 255));
+  background: radial-gradient(white 20%, rgb(207, 207, 200));
   text-align: center;
 }
 .project-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
-  padding: 6rem 2rem 3rem 2rem;
+  background-color: black;
+  padding: 0 0.5rem 1.5rem;
+  perspective: 1000px; /* Give some depth for 3D effect */
 }
-
+.projTitle {
+  text-align: center;
+  padding: 3rem 0 2rem 0;
+  color: black;
+  background-color: black;
+  margin-top: 1.5rem;
+  border-top: 2px solid black;
+}
 .project-card {
   margin: 1rem;
   padding: 1.5rem 1rem;
-  background-color: rgb(207, 207, 200);
+  background-color: rgb(25, 25, 25);
   border-radius: 10px;
-  border: 1px solid rgb(12, 12, 12);
+  border: 1px solid rgb(41, 41, 41);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   height: 25rem;
   box-shadow: 2px 2px 2px black;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+.project-card.flipped {
+  transform: rotateY(360deg);
 }
 
-.project-card h2 {
-  margin: 1rem 0;
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* Hide the back side when flipped */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
 }
-.project-card i .project-card a {
-  font-size: 15px;
-  padding: 0.2rem;
-}
+
 .project-card img {
   width: 100%;
   height: 30%;
@@ -60,7 +79,7 @@
   .project-container {
     display: flex;
     flex-direction: column;
-    padding: 4rem;
+    padding: 0 4rem;
   }
   .project-card {
     margin-top: 2rem;
@@ -69,6 +88,6 @@
 
 @media screen and (min-width: 1100px) {
   .project-container {
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(7, 1fr);
   }
 }

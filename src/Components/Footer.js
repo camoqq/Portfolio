@@ -12,15 +12,13 @@ const Footer = () => {
   return (
     <div className="footer1">
       <div className="left">
-        <div>
-          <div className="phone">
-            <FaPhone style={{ color: "black", marginRight: "10px" }} />
-            <span>347-9409440</span>
-          </div>
-          <div className="mail">
-            <FaMailBulk style={{ color: "black", marginRight: "10px" }} />
-            <span>camilog.set@gmail.com</span>
-          </div>
+        <div className="phone">
+          <FaPhone style={{ color: "gray", marginRight: "10px" }} />
+          <span>347-9409440</span>
+        </div>
+        <div className="mail">
+          <FaMailBulk style={{ color: "gray", marginRight: "10px" }} />
+          <span>camilog.set@gmail.com</span>
         </div>
       </div>
 
@@ -28,20 +26,14 @@ const Footer = () => {
         <a href="https://www.facebook.com">
           <FaFacebook
             size={40}
-            style={{ marginRight: "1rem", color: "black" }}
+            style={{ marginRight: "1rem", color: "gray" }}
           />
         </a>
         <a href="https://www.twitter.com">
-          <FaTwitter
-            size={40}
-            style={{ marginRight: "1rem", color: "black" }}
-          />
+          <FaTwitter size={40} style={{ marginRight: "1rem", color: "gray" }} />
         </a>
         <a href="https://www.youtube.com">
-          <FaYoutube
-            size={40}
-            style={{ marginRight: "1rem", color: "black" }}
-          />
+          <FaYoutube size={40} style={{ marginRight: "1rem", color: "gray" }} />
         </a>
       </div>
     </div>

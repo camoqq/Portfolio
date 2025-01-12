@@ -1,15 +1,15 @@
 .footer1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  background-color: white;
-  border-top: 10px solid rgb(207, 207, 200);
-  color: white !important;
+  background-color: rgb(25, 25, 25);
+  border-top: 2px solid black;
 }
 
 .left {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  padding-top: 2.5rem;
+  align-items: center;
   line-height: 1.7rem;
 }
 .right {
@@ -24,12 +24,17 @@
 }
 
 @media screen and (max-width: 580px) {
-  .right {
-    display: none;
+  .left {
+    padding-top: 1rem;
   }
+
+  .right {
+    padding: 1rem 0;
+  }
+
   .footer1 {
     display: flex;
-    justify-content: center;
-    align-content: center;
+    flex-direction: column;
+    line-height: 0;
   }
 }

@@ -16,8 +16,8 @@ function App() {
       <BrowserRouter>
         <Suspense>
           <Routes>
-            <Route path="/" element={<Home />} exact />
-            <Route path="/project" element={<Project />} />
+            <Route path="/" element={<Project />} exact />
+            {/* <Route path="/project" element={<Project />} /> */}
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
