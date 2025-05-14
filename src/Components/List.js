@@ -1,4 +1,4 @@
-import pic5 from "../Pics/p5.webp";
+// import pic5 from "../Pics/p5.webp";
 import pic1 from "../Pics/p1.png";
 import pic3 from "../Pics/you.jpeg";
 import pic7 from "../Pics/p7.jpeg";
@@ -9,19 +9,19 @@ import pic2 from "../Pics/countries.jpeg";
 const listItems = [
   {
     id: 1,
-    title: "Shopping Cart",
-    desc: "Shopping cart using the MERN stack",
-    code: "https://github.com/camoqq/mern",
-    live: "https://mern-o0ir.onrender.com/",
-    image: pic6,
-  },
-  {
-    id: 2,
     title: "YouTube Clone",
     desc: "YouTube clone using Tailwind and Typescript",
     code: "https://github.com/camoqq/youtubeClone",
     live: "https://youtube-clone-orpin-eight.vercel.app/",
     image: pic3,
+  },
+  {
+    id: 2,
+    title: "Shopping Cart",
+    desc: "Shopping cart using the MERN stack",
+    code: "https://github.com/camoqq/mern",
+    live: "https://mern-o0ir.onrender.com/",
+    image: pic6,
   },
   {
     id: 3,
@@ -55,14 +55,14 @@ const listItems = [
     live: "https://camoqq.github.io/tic-tac-toe/",
     image: pic7,
   },
-  {
-    id: 7,
-    title: "Movies",
-    desc: "Movies app with reducers",
-    code: "https://github.com/camoqq/movies",
-    live: "https://camoqq.github.io/movies/",
-    image: pic5,
-  },
+  // {
+  //   id: 7,
+  //   title: "Movies",
+  //   desc: "Movies app with reducers",
+  //   code: "https://github.com/camoqq/movies",
+  //   live: "https://camoqq.github.io/movies/",
+  //   image: pic5,
+  // },
 ];
 
 export default listItems;
