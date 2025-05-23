@@ -49,7 +49,7 @@ const listItems = [
   },
   {
     id: 6,
-    title: "Dice Tic Tac Toe",
+    title: "Tic Tac Toe Game",
     desc: "Tic Tac Toe game",
     code: "https://github.com/camoqq/tictactoe",
     live: "https://tictactoe-fawn-psi.vercel.app/",
