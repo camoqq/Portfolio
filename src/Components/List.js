@@ -3,14 +3,14 @@ import pic1 from "../Pics/p1.png";
 import pic3 from "../Pics/you.jpeg";
 import pic7 from "../Pics/p7.jpeg";
 import pic6 from "../Pics/mern4.jpg";
-import pic9 from "../Pics/p9.jpeg";
+// import pic9 from "../Pics/p9.jpeg";
 import pic2 from "../Pics/countries.jpeg";
 
 const listItems = [
   {
     id: 1,
     title: "YouTube Clone",
-    desc: "YouTube clone using Tailwind and Typescript",
+    desc: "A TypeScript-based YouTube clone with search filtering powered by the Context API.",
     code: "https://github.com/camoqq/youtubeClone",
     live: "https://youtube-clone-orpin-eight.vercel.app/",
     image: pic3,
@@ -18,7 +18,7 @@ const listItems = [
   {
     id: 2,
     title: "Shopping Cart",
-    desc: "Shopping cart using the MERN stack",
+    desc: "Full-stack MERN app with product listings, cart management, and user auth.",
     code: "https://github.com/camoqq/mern",
     live: "https://mern-o0ir.onrender.com/",
     image: pic6,
@@ -26,23 +26,16 @@ const listItems = [
   {
     id: 3,
     title: "Medical Dashboard",
-    desc: "Dashboard made with Next.js",
+    desc: "A modern healthcare dashboard, built with Next.js with charts.",
     code: "https://github.com/camoqq/medical_dashboard",
     live: "https://medical-dashboard-mocha.vercel.app/",
     image: pic1,
   },
-  {
-    id: 4,
-    title: "Car Store",
-    desc: "App made with Typescript and Redux",
-    code: "https://github.com/camoqq/carStore",
-    live: "https://car-store-zeta.vercel.app/",
-    image: pic9,
-  },
+
   {
     id: 5,
-    title: "Countries",
-    desc: "App made with Typescript",
+    title: "Countries Explorer",
+    desc: "A Countries explorer with data fetching built with TypeScript.",
     code: "https://github.com/camoqq/countries",
     live: "https://countries-lovat-rho.vercel.app/",
     image: pic2,
@@ -50,19 +43,11 @@ const listItems = [
   {
     id: 6,
     title: "Tic Tac Toe Game",
-    desc: "Tic Tac Toe game",
+    desc: "A classic 2-player Tic Tac Toe game built with Typescript and Tailwind CSS.",
     code: "https://github.com/camoqq/tictactoe",
     live: "https://tictactoe-fawn-psi.vercel.app/",
     image: pic7,
   },
-  // {
-  //   id: 7,
-  //   title: "Movies",
-  //   desc: "Movies app with reducers",
-  //   code: "https://github.com/camoqq/movies",
-  //   live: "https://camoqq.github.io/movies/",
-  //   image: pic5,
-  // },
 ];
 
 export default listItems;
