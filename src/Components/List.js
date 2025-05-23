@@ -51,8 +51,8 @@ const listItems = [
     id: 6,
     title: "Dice Tic Tac Toe",
     desc: "Tic Tac Toe game",
-    code: "https://github.com/camoqq/tic-tac-toe",
-    live: "https://camoqq.github.io/tic-tac-toe/",
+    code: "https://github.com/camoqq/tictactoe",
+    live: "https://tictactoe-fawn-psi.vercel.app/",
     image: pic7,
   },
   // {
