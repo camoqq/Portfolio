@@ -3,6 +3,7 @@ import pic1 from "../Pics/p1.png";
 import pic3 from "../Pics/you.jpeg";
 import pic7 from "../Pics/p7.jpeg";
 import pic6 from "../Pics/mern4.jpg";
+import pic4 from "../Pics/micro.png";
 // import pic9 from "../Pics/p9.jpeg";
 import pic2 from "../Pics/countries.jpeg";
 
@@ -17,6 +18,15 @@ const listItems = [
   },
   {
     id: 2,
+    title: "Wellness Summit Page",
+    desc: "A Next.js wellness page with pop-ups showing detailed wellness descriptions.",
+    code: "https://github.com/camoqq/micro",
+    live: "https://micro-six-ashy.vercel.app/",
+    image: pic4,
+  },
+
+  {
+    id: 3,
     title: "Shopping Cart",
     desc: "Full-stack MERN app with product listings, cart management, and user auth.",
     code: "https://github.com/camoqq/mern",
@@ -24,7 +34,7 @@ const listItems = [
     image: pic6,
   },
   {
-    id: 3,
+    id: 4,
     title: "Medical Dashboard",
     desc: "A modern healthcare dashboard, built with Next.js with charts.",
     code: "https://github.com/camoqq/medical_dashboard",
